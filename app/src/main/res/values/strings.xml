@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guia Pokemon GO</string>
+    <string name="pokedex">Pokedex</string>
+    <string name="itens">Itens</string>
+    <string name="ataques">Ataques</string>
+    <string name="dicas">Dicas</string>
+</resources>

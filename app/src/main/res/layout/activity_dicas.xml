@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_guia_inicial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Guia Inicial"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_eevee_evolution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Escolhendo a evolução do Eevee"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_pikachu_starter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Começando com Pikachu"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_encontrar_pokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Como encontrar Pokemons"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_chocando_ovos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Chocando Ovos"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_jogar_pokebola"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Como jogar uma Poke Ball"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_poke_stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Poke Stop"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_spawn_pokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Zonas de Spawn"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_ninhos_pokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Ninhos de Pokemons"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_upando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Subindo de Nivel"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
