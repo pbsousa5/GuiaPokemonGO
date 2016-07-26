@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Encontrando Pokemons"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Pokemons tendem a aparecer perto das folhas."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  A sua distância para o poekmons é indicada pelo número de pegadas sob seu ícone, quanto mais pegadas mais longe."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Depois que o Pokemon aparece ele parmanece parado."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Todo mundo vê os mesmo Pokemons, e captura-lo não significa que ele desaparecerá para outro usuário."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

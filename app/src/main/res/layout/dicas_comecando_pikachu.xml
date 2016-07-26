@@ -1,12 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="br.com.extractor.guiapokemongo.view.dicas.ComecandoPikachuActivity">
+    android:orientation="vertical">
 
-</RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Começando com o Pikachu"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Além de pegar um Bulbasaur, Charmander ou Squirtle, também é possível obter um Pikachu como seu Pokémon inicial."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="#1 - Ande Bastante"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Quando entrar no jogo pela primeira vez, haverá um Bulbassauro, Squirtle e Charmander dentro de uma curta distância. Ande até que eles não estejam mais visíveis. Uma vez fora da distância visível, eles irão reaparecer."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="#2 - Repita"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="  Repita de 4-5 vezes o passo 1. Por volta da 4-5 vez, haverá uma ondulação que significa a presença de um pokemon, mas sem um pokemon acima dela, toque-o algumas vezes e um Pikachu irá aparecer."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Aproveite o seu Pikachu."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:orientation="vertical">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -14,12 +13,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
                 android:text="Cidade de Pallet"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/primary" />
@@ -38,6 +40,92 @@
                 android:text="  Nós sabemos que há uma abundância de informações sobre o jogo, sejam elas verdadeiras, especulações, ou mesmo falsos rumores, por isso estamos aqui para analisar essas informação e extrair os dados mais recentes e mais importantes para dar a você."
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Tutorial Official da Niantic"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:clickable="true"
+                android:text="@string/link_tutorial_niantic"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Depois de ler sobre as noções básicas de como jogar (que estão em inglês), não deixe de conferir as dicas a seguir!"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Não Melhore seus Pokemons"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  É possível melhoroar o CP dos seus pokemons, mas você encontrará naturalmente pokemons com maior CP enquanto você evolui de nivel."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Doces também são muito valiosos, uma vez que podem ser utilizados para evoluções que concedem grandes quantidades de XP, e há maneiras de maximizar a evolução se você for um jogador poderoso."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Caça de Pokemons"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Pokémon não aparecem igualmente em todos os lugares. Locais com mais pessoas, atrações turísticas, shoppings têm mais pokemons do que em áreas rurais."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Vamos Jogar"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Vá para fora jogar o jogo! Temos varios outros guias neste app para ajudar na sua jornada."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
         </LinearLayout>
 
     </ScrollView>

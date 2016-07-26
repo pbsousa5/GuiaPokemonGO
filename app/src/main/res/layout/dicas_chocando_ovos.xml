@@ -1,6 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Como Chocar Ovos"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Você pode adiquirir ovos pokemon em PokeStop. Eles não são listados com o resto de seus itens, e em vez disso aparecem na segunda aba de sua seção Pokemon."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Todo mundo começa o jogo com uma Incubadora ∞, que é de cor laranja. Ela pode ser usada para chocar os ovos que você quiser. Cada incubadora pode chocar apenas um ovo de cada vez, uma vez colocado o ovo não é possivel tirar ele da incubadora."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Você também pode adquirir Incubadoras normais através de recompensas por subir de nível ou na loja comprando por PokeCoins. Estas só podem ser usadas 3 vezes antes de desaparecer, então é melhor guardá-las para os seus ovos maior distância!"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Você deve viajar a distância enquanto o jogo está ativo ou a distância não vai contar. Isto é baseado na distância medida com GPS e não no número de passos como um pedômetro."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Dicas e Truques"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Pokemons nascidos de ovos parecem ter CP com base no nível treinador quando você os chocou, então não vale a pena guarda-los para niveis mais altos."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Pokemons provenientes de ovos parecem ter nível perto do máximo, o que significa maior CP do que a maioria dos pokemons selvagens do mesmo tipo."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Pokemons provenientes de ovos parecem ter muito mais pontos de IV do que os pokemons salvagens."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  O nível máximo de um pokemon que saiu de um ovo pode ser o nível 20, em vez de seu nível de treinador + 1.5, como sugerido nos arquivos do jogo decodificados."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  A velocidade máxima que um você pode viajar para chocar pokemons é de aproximadamente 24 kmh, viajando mais rápido (como por condução) não vai aumentar a sua distância percorrida."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
