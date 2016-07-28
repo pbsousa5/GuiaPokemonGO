@@ -217,7 +217,48 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
-                android:text="  ."
+                android:text="  Incenso e Iscas atraem um novo Pokemon para perto de você a cada 5 minutos durante 30 minutos, dando um total de 6 Pokemons. Estes Pokémon somem em cerca de 2,5 minutos."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Informações Avançadas"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Se um Pokemon aparecer perto de você, ele é adicionado à sua lista de Pokemons nas proximidades depois de aproximadamente 1 minuto."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Se dois treinadores de nível igual encontrarem o mesmo Pokemon, ele terá exatamente o mesmo CP para ambos os jogadores."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Enquanto CP pode variar de acordo com o nível do treinador, as suas pontuações IV será o mesmo para todos pokemons que captura-lo."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="  Enquanto o nível máximo de um Pokemon é de 40, o nível máximo de um Pokemon selvagem é o nível 30."
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="17sp" />
 
