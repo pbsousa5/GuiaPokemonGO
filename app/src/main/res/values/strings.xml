@@ -5,5 +5,8 @@
     <string name="ataques">Ataques</string>
     <string name="dicas">Dicas</string>
 
-    <string name="link_tutorial_niantic">   Pokémon GO é feito pela empresa Niantic, e a sua <a href="https://support.pokemongo.nianticlabs.com/hc/en-us" >página de suporte</a> tem um monte de informações valiosas para os novos treinadores!</string>
+    <string name="link_tutorial_niantic">   Pokémon GO é feito pela empresa Niantic, e a sua <a href="https://support.pokemongo.nianticlabs.com/hc/en-us">página de suporte</a> tem um monte de informações valiosas para os novos treinadores!</string>
+    <string name="easter_eggs">Easter Eggs</string>
+    <string name="title_activity_easter_eggs">EasterEggsActivity</string>
+    <string name="title_activity_easter_eggs_base">EasterEggsBaseActivity</string>
 </resources>

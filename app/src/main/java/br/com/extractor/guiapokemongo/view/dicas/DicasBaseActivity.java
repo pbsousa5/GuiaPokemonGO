@@ -2,6 +2,8 @@ package br.com.extractor.guiapokemongo.view.dicas;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 
 import br.com.extractor.guiapokemongo.R;
 import br.com.extractor.guiapokemongo.model.ContentKey;
@@ -19,14 +21,11 @@ public class DicasBaseActivity extends AppCompatActivity {
             switch (content) {
                 case ContentKey.DICA_GUIA_INICIAL:
                     setContentView(R.layout.dicas_guia_inicial);
-                    break;
 
-                case ContentKey.DICA_EVOLUCAO_EEVEE:
-                    setContentView(R.layout.dicas_evolucao_eevee);
-                    break;
-
-                case ContentKey.DICA_COMECANDO_PIKACHU:
-                    setContentView(R.layout.dicas_comecando_pikachu);
+                    TextView txt_link_guia = (TextView) findViewById(R.id.txt_link_guia);
+                    if (txt_link_guia != null) {
+                        txt_link_guia.setMovementMethod(LinkMovementMethod.getInstance());
+                    }
                     break;
 
                 case ContentKey.DICA_COMO_ENCONTRAR_POKEMON:

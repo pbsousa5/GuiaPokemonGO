@@ -51,10 +51,11 @@
                 android:textColor="@color/primary" />
 
             <TextView
+                android:id="@+id/txt_link_guia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
-                android:clickable="true"
+                android:linksClickable="true"
                 android:text="@string/link_tutorial_niantic"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="17sp" />

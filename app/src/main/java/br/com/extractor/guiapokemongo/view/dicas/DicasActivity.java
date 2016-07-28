@@ -24,22 +24,6 @@ public class DicasActivity extends AppCompatActivity {
             }
         });
 
-        Button btn_eevee_evolution = (Button) findViewById(R.id.btn_eevee_evolution);
-        btn_eevee_evolution.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startDicasActivity(ContentKey.DICA_EVOLUCAO_EEVEE);
-            }
-        });
-
-        Button btn_pikachu_starter = (Button) findViewById(R.id.btn_pikachu_starter);
-        btn_pikachu_starter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startDicasActivity(ContentKey.DICA_COMECANDO_PIKACHU);
-            }
-        });
-
         Button btn_encontrar_pokemon = (Button) findViewById(R.id.btn_encontrar_pokemon);
         btn_encontrar_pokemon.setOnClickListener(new View.OnClickListener() {
             @Override

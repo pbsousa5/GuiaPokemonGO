@@ -16,7 +16,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.dicas.DicasActivity" />
-        <activity android:name=".view.dicas.DicasBaseActivity"></activity>
+        <activity android:name=".view.dicas.DicasBaseActivity" />
+        <activity
+            android:name=".view.easterEggs.EasterEggsActivity"
+            android:label="@string/title_activity_easter_eggs" />
+        <activity
+            android:name=".view.easterEggs.EasterEggsBaseActivity"
+            android:label="@string/title_activity_easter_eggs_base"></activity>
     </application>
 
 </manifest>
